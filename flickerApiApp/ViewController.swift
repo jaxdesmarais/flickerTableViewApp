@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    private var flickerViewModel = FlickrViewModel()
+//    private var dataSource : PhotoTableViewDataSource<PhotoTableViewCell,Photos>!
+    
 	let tableView = UITableView()
     var photos = [String]()
     
@@ -16,8 +19,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = .white
-        tableView.delegate = self
-        tableView.dataSource = self
+//        tableView.delegate = self
+//        tableView.dataSource = self
         
         setupTableView()
     }
@@ -31,6 +34,26 @@ class ViewController: UIViewController {
         tableView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Photos")
     }
+    
+    func callToViewModelForUIUpdate(){
+        
+        self.flickerViewModel =  FlickrViewModel()
+        self.flickerViewModel.bindPhotoViewModelToController = {
+//            self.updateDataSource()
+        }
+    }
+    
+//    func updateDataSource(){
+        
+//        self.dataSource = PhotoTableViewDataSource(cellIdentifier: "PhotoTableViewCell", items: self.flickerViewModel.photoData.data, configureCell: { (cell, photoVM) in
+//            cell.photoIdLabel.text = photoVM.title
+//            cell.employeeNameLabel.text = evm.employeeName
+//        })
+        
+//        DispatchQueue.main.async {
+//            self.tableView.dataSource = self
+//            self.tableView.reloadData()
+//        }
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {

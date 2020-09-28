@@ -11,7 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     let tableView = UITableView()
     var flickrViewModel = FlickrViewModel()
-//    var photos = [FlickrViewModel]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -70,6 +69,6 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
 //    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        
+//
 //    }
 }

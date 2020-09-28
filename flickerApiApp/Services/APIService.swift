@@ -17,7 +17,6 @@ class APIService: NSObject {
         URLSession.shared.dataTask(with: url) { (data, urlResponse, error) in
             if let data = data {
                 let jsonDecoder = JSONDecoder()
-//                print(String(bytes:data, encoding: .utf8))
                 let photoData = try! jsonDecoder.decode(FlickrImageResult.self, from: data)
                 completion(photoData)
             }

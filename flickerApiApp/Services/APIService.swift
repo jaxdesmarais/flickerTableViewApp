@@ -19,7 +19,6 @@ class APIService: NSObject {
                 let jsonDecoder = JSONDecoder()
 //                print(String(bytes:data, encoding: .utf8))
                 let photoData = try! jsonDecoder.decode(FlickrImageResult.self, from: data)
-                print(photoData)
                 completion(photoData)
             }
         }.resume()

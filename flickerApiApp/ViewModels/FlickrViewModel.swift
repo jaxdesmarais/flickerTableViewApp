@@ -15,15 +15,15 @@ class FlickrViewModel: NSObject {
             self.bindPhotoViewModelToController()
         }
     }
-    
+
     var bindPhotoViewModelToController : (() -> ()) = {}
-    
+
     override init() {
         super.init()
         self.apiService = APIService()
         callFuncToGetPhotoData()
     }
-    
+
     func callFuncToGetPhotoData() {
         self.apiService.apiToFetchFlickerData { (photoData) in
             self.photoData = photoData

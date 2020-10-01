@@ -54,13 +54,15 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Photo", for: indexPath)
         cell.textLabel?.text = flickrViewModel.photoData.photos?.photo[indexPath.row].title
         cell.textLabel?.font = UIFont.systemFont(ofSize: 20)
+//        cell.textLabel?.frame.origin.x = 65
         cell.accessoryType = .disclosureIndicator
         
         if let imageUrl = flickrViewModel.photoData.photos?.photo[indexPath.row].imageUrl, let url = URL(string: imageUrl) {
             URLSession.shared.dataTask(with: url) { (data, urlResponse, error) in
                 if let data = data {
-                    DispatchQueue.main.sync {
+                    DispatchQueue.main.async {
                         cell.imageView?.image = UIImage(data: data)
+                        cell.imageView?.frame = CGRect(x: 0, y: 0, width: 50, height: 50)
                     }
                 }
             }.resume()

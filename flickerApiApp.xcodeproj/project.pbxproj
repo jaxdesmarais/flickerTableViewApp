@@ -15,6 +15,7 @@
 		BE42424C251D290500220122 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE42424A251D290500220122 /* LaunchScreen.storyboard */; };
 		BE424254251E4A1600220122 /* FlickrPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE424253251E4A1600220122 /* FlickrPhotos.swift */; };
 		BE424256251E4B5E00220122 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE424255251E4B5E00220122 /* APIService.swift */; };
+		BEEDA1712538C0C800DA5AA5 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEDA1702538C0C800DA5AA5 /* ImageDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BE42424D251D290500220122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE424253251E4A1600220122 /* FlickrPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrPhotos.swift; sourceTree = "<group>"; };
 		BE424255251E4B5E00220122 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		BEEDA1702538C0C800DA5AA5 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				BE424241251D28FE00220122 /* SceneDelegate.swift */,
 				400ED76B251FA5F0003CD15C /* Views */,
 				BE424243251D28FE00220122 /* ViewController.swift */,
+				BEEDA1702538C0C800DA5AA5 /* ImageDetailViewController.swift */,
 				400ED766251FA122003CD15C /* ViewModels */,
 				400ED765251F9F6F003CD15C /* Models */,
 				400ED764251F9EA4003CD15C /* Services */,
@@ -177,6 +180,7 @@
 			files = (
 				BE424254251E4A1600220122 /* FlickrPhotos.swift in Sources */,
 				400ED768251FA15F003CD15C /* FlickrViewModel.swift in Sources */,
+				BEEDA1712538C0C800DA5AA5 /* ImageDetailViewController.swift in Sources */,
 				BE424256251E4B5E00220122 /* APIService.swift in Sources */,
 				BE424244251D28FE00220122 /* ViewController.swift in Sources */,
 				BE424240251D28FE00220122 /* AppDelegate.swift in Sources */,

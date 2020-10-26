@@ -10,7 +10,7 @@ import UIKit
 
 class FlickrViewModel: NSObject {
     private var apiService : APIService!
-    private(set) var photoData : FlickrImageResult! {
+    private(set) var photoData : FlickrImageResult? {
         didSet {
             self.bindPhotoViewModelToController()
         }
@@ -21,12 +21,17 @@ class FlickrViewModel: NSObject {
     override init() {
         super.init()
         self.apiService = APIService()
-        callFuncToGetPhotoData()
+        callFuncToGetFlickrData(text: "")
     }
 
-    func callFuncToGetPhotoData() {
-        self.apiService.apiToFetchFlickerData { (photoData) in
+    func callFuncToGetFlickrData(text: String) {
+        self.apiService.apiToFetchFlickerData(text: text) { (photoData) in
             self.photoData = photoData
+        }
+    }
+    func callFuncToGetPhotoData(url: URL, completion: @escaping (UIImage?, URL) -> ()) {
+        self.apiService.apiToFetchPhotoData(url: url) { (imageData) in
+            completion(imageData, url)
         }
     }
 }

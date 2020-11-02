@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1EFC3EF7-20CF-4115-A15F-02435840294C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C275EB1E-FF72-4119-BF25-E64D9F4BB2AD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "flickerApiApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "callToViewModelForUIUpdate()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C275EB1E-FF72-4119-BF25-E64D9F4BB2AD - 47e6dcb8398e8c46"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "flickerApiApp.ViewController.callToViewModelForUIUpdate() -&gt; ()"
+                  moduleName = "flickerApiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdesmarais/Documents/Developer/flickerApiApp/flickerApiApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  uuid = "C275EB1E-FF72-4119-BF25-E64D9F4BB2AD - 817c53731430e72"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in flickerApiApp.ViewController.callToViewModelForUIUpdate() -&gt; ()"
+                  moduleName = "flickerApiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdesmarais/Documents/Developer/flickerApiApp/flickerApiApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "45">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17B2790E-4F56-4612-8C6E-0C0CEC9D31BF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "flickerApiApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "callToViewModelForUIUpdate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1CF18462-5182-40DB-AE51-45C4BDF663E3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "flickerApiApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "updateDataSource()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43ABEE5F-2DDB-4262-90B2-14ED334D3482"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "flickerApiApp/ViewModels/FlickrViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "callFuncToGetFlickrData(text:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97B65F1B-2D82-4B7A-97E6-4BF30296F2CA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "flickerApiApp/Services/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "apiToFetchFlickerData(text:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64C69253-76F8-490E-B9A1-3B1DC8465A32"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "flickerApiApp/Services/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "apiToFetchFlickerData(text:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A3703F9-0F06-4F21-BF94-A208BE1E880B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "flickerApiApp/ViewModels/FlickrViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "callFuncToGetFlickrData(text:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EAA201EC-C8D9-4E4B-8568-CCD702E453AD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "flickerApiApp/Services/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "apiToFetchFlickerData(text:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EAA201EC-C8D9-4E4B-8568-CCD702E453AD - 4cbf235d72292f0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in flickerApiApp.APIService.apiToFetchFlickerData(text: Swift.Optional&lt;Swift.String&gt;, completion: (flickerApiApp.FlickrImageResult) -&gt; ()) -&gt; ()"
+                  moduleName = "flickerApiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdesmarais/Documents/Developer/flickerApiApp/flickerApiApp/Services/APIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "570">
+               </Location>
+               <Location
+                  uuid = "EAA201EC-C8D9-4E4B-8568-CCD702E453AD - 4cbf235d72292f0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in flickerApiApp.APIService.apiToFetchFlickerData(text: Swift.Optional&lt;Swift.String&gt;, completion: (flickerApiApp.FlickrImageResult) -&gt; ()) -&gt; ()"
+                  moduleName = "flickerApiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdesmarais/Documents/Developer/flickerApiApp/flickerApiApp/Services/APIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "752">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B41603E5-4362-42D5-8E2F-7FC91AD7490B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "flickerApiApp/Services/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "apiToFetchFlickerData(text:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE06F66B-83E3-44BD-8F4F-938005019444"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "flickerApiApp/ViewModels/FlickrViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "callFuncToGetFlickrData(text:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AE06F66B-83E3-44BD-8F4F-938005019444 - 2188246e12056589"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "flickerApiApp.FlickrViewModel.callFuncToGetFlickrData(text: Swift.String) -&gt; ()"
+                  moduleName = "flickerApiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdesmarais/Documents/Developer/flickerApiApp/flickerApiApp/ViewModels/FlickrViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "93">
+               </Location>
+               <Location
+                  uuid = "AE06F66B-83E3-44BD-8F4F-938005019444 - 595716aa0dfff250"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (flickerApiApp.FlickrImageResult) -&gt; () in flickerApiApp.FlickrViewModel.callFuncToGetFlickrData(text: Swift.String) -&gt; ()"
+                  moduleName = "flickerApiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdesmarais/Documents/Developer/flickerApiApp/flickerApiApp/ViewModels/FlickrViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A18573B7-D97E-4096-9D97-014DCF5521C3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "flickerApiApp/ViewModels/FlickrViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "callFuncToGetPhotoData(url:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C002CD1-DB34-4998-8320-78EC3F5E21FE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "flickerApiApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C4898E4-276B-43A8-A2A8-BC9A85050F6F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "flickerApiApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "updateDataSource()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6D6B05F-A15A-4C03-9588-1174485CB17E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "flickerApiApp/Views/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "callToViewModelForUIUpdate()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C6D6B05F-A15A-4C03-9588-1174485CB17E - 9d6eb7ab376dba72"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "flickerApiApp.ViewController.callToViewModelForUIUpdate() -&gt; ()"
+                  moduleName = "flickerApiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdesmarais/Documents/Developer/flickerApiApp/flickerApiApp/Views/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  uuid = "C6D6B05F-A15A-4C03-9588-1174485CB17E - d29fae243fa03846"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in flickerApiApp.ViewController.callToViewModelForUIUpdate() -&gt; ()"
+                  moduleName = "flickerApiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdesmarais/Documents/Developer/flickerApiApp/flickerApiApp/Views/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "45">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1943D30-3267-441E-9AED-5A731CF82BF9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "flickerApiApp/ViewModels/FlickrViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "FlickrViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E1943D30-3267-441E-9AED-5A731CF82BF9 - fd829dde3b7d39f9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in variable initialization expression of flickerApiApp.FlickrViewModel.bindPhotoViewModelToController : () -&gt; ()"
+                  moduleName = "flickerApiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdesmarais/Documents/Developer/flickerApiApp/flickerApiApp/ViewModels/FlickrViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "E1943D30-3267-441E-9AED-5A731CF82BF9 - 1a781f01389ba264"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "flickerApiApp.FlickrViewModel.bindPhotoViewModelToController.getter : () -&gt; ()"
+                  moduleName = "flickerApiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdesmarais/Documents/Developer/flickerApiApp/flickerApiApp/ViewModels/FlickrViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "E1943D30-3267-441E-9AED-5A731CF82BF9 - b23515ee8337e270"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "flickerApiApp.FlickrViewModel.bindPhotoViewModelToController.setter : () -&gt; ()"
+                  moduleName = "flickerApiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdesmarais/Documents/Developer/flickerApiApp/flickerApiApp/ViewModels/FlickrViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "150">
+               </Location>
+               <Location
+                  uuid = "E1943D30-3267-441E-9AED-5A731CF82BF9 - da7286b70e394261"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "flickerApiApp.FlickrViewModel.bindPhotoViewModelToController.modify : () -&gt; ()"
+                  moduleName = "flickerApiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdesmarais/Documents/Developer/flickerApiApp/flickerApiApp/ViewModels/FlickrViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "E1943D30-3267-441E-9AED-5A731CF82BF9 - 4351a892bb4ca7af"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "flickerApiApp.FlickrViewModel.bindPhotoViewModelToController.modify : () -&gt; () with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "flickerApiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdesmarais/Documents/Developer/flickerApiApp/flickerApiApp/ViewModels/FlickrViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EDBD6F72-8C01-4933-AF67-C3506769E48E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "flickerApiApp/Views/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "updateSearchResults(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D027BED-C433-4988-84D1-7F0C92EC4AEB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "flickerApiApp/Views/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "updateSearchResults(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C9598FF-E1AA-4C51-9EBC-68DBBB62F854"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "flickerApiApp/Services/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "apiToFetchFlickerData(text:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "709BFED2-7FFD-42B2-A58A-DEC38F7B3986"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "flickerApiApp/Services/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "apiToFetchFlickerData(text:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

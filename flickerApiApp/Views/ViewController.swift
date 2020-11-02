@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     let tableView = UITableView()
     let searchController = UISearchController(searchResultsController: nil)
     var flickrViewModel = FlickrViewModel()
-    var filteredPhotos: [FlickrPhoto] = []
+    let reuseIdentifier = "Photo"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,16 +42,12 @@ class ViewController: UIViewController {
         tableView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
         tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
         tableView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
-        tableView.register(PhotoTableViewCell.self, forCellReuseIdentifier: "Photo")
-    }
-    
-    func filterPhotos(for searchText: String) {
-        filteredPhotos = flickrViewModel.photoData?.photos?.photo.filter { $0.title?.lowercased().contains(searchText.lowercased()) ?? false } ?? []
+        tableView.register(PhotoTableViewCell.self, forCellReuseIdentifier: reuseIdentifier)
     }
     
     func updateSearchResults(for searchController: UISearchController) {
-        if let searchText = searchController.searchBar.text {
-            filterPhotos(for: searchText)
+        if let searchText = searchController.searchBar.text, searchText.count > 1 {
+            flickrViewModel.callFuncToGetFlickrData(text: searchText)
             if !searchText.isEmpty {
                 searchController.searchBar.showsCancelButton = true
                 tableView.reloadData()
@@ -61,6 +57,7 @@ class ViewController: UIViewController {
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         searchBar.text = ""
+        flickrViewModel.callFuncToGetFlickrData(text: "")
         searchBar.showsCancelButton = false
         searchController.isActive = false
         tableView.reloadData()
@@ -81,16 +78,12 @@ class ViewController: UIViewController {
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource, UISearchResultsUpdating, UISearchBarDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if searchController.isActive {
-            return filteredPhotos.count
-        } else {
             return flickrViewModel.photoData?.photos?.photo.count ?? 0
-        }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "Photo", for: indexPath) as? PhotoTableViewCell else { return UITableViewCell() }
-        let photos = searchController.isActive ? filteredPhotos[indexPath.row] : flickrViewModel.photoData?.photos?.photo[indexPath.row]
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier, for: indexPath) as? PhotoTableViewCell else { return UITableViewCell() }
+        let photos = flickrViewModel.photoData?.photos?.photo[indexPath.row]
         if let titleText = photos?.title {
             cell.textLabel?.text = titleText
         } else {

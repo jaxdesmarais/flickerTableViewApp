@@ -10,7 +10,7 @@ import UIKit
 
 class FlickrViewModel: NSObject {
     private var apiService : APIService!
-    private(set) var photoData : FlickrImageResult? {
+    public var photoData : FlickrImageResult? {
         didSet {
             self.bindPhotoViewModelToController()
         }
